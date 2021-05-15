@@ -436,3 +436,24 @@ h2:hover{
     }
    
 }
+
+@media (max-width:800px){
+    .content{
+        flex-flow: column;
+        margin :10px;
+    }
+    .sec2{
+        flex-flow: column;
+        margin :10px;
+    }
+    .sec3{
+        flex-flow: column;
+        margin :10px;
+    }
+    .navbar{
+        margin-left: 1%;
+        size:0.8rem;
+        width:90%;
+    }
+    
+}
