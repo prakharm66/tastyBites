@@ -480,4 +480,7 @@ h2:hover{
         flex: 2;
         flex-flow: column;
     }
+     .formEntry{
+        width: 70%;
+    }
 }
