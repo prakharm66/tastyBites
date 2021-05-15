@@ -438,6 +438,10 @@ h2:hover{
 }
 
 @media (max-width:800px){
+    body{
+        margin-left: 10%;
+        margin-right:10%;
+    }
     .content{
         flex-flow: column;
         margin :10px;
@@ -455,5 +459,25 @@ h2:hover{
         size:0.8rem;
         width:90%;
     }
+    .searchbar:focus{
+        background-color: white;
+    }
+    .card1{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
     
+}
+@media(max-width:600px){
+   
+    .navbar{
+        opacity: 0;
+    }
+    .logo{
+        width:20%
+    }
+    .rightfoot{
+        flex: 2;
+        flex-flow: column;
+    }
 }
