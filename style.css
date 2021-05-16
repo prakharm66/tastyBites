@@ -69,9 +69,14 @@ h3{
     border-radius: 10rem;
     position: fixed;
     z-index: 4;
-    float:left;
-    
-    
+    float:left;  
+}
+#theme{
+    position: fixed;
+    font-size: 1.3rem;
+    width:15%;
+    opacity:0;
+
 }
 .menus{
     margin-top: -1rem;
@@ -468,13 +473,21 @@ h2:hover{
     }
     
 }
-@media(max-width:600px){
+@media(max-width:680px){
    
     .navbar{
         opacity: 0;
     }
     .logo{
         width:20%
+    }
+      #theme{
+        z-index: 2;
+        opacity: 1;
+        margin-left: 60%;
+        background-color: darkred;
+        color: white;
+        margin-top: 0%;
     }
     .rightfoot{
         flex: 2;
