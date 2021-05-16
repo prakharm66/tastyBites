@@ -18,7 +18,6 @@ body{
 a{
     text-decoration: none;
     color:black;
-    transition :cubic-bezier() 2s;
 }
 
 
@@ -79,6 +78,7 @@ h3{
     font-size: 1.3rem;
     width:15%;
     opacity:0;
+    animation: none;
 
 }
 .menus{
