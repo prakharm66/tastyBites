@@ -500,7 +500,8 @@ h2:hover{
         opacity: 0;
     }
     #theme{
-        z-index: 2;
+        z-index: 5;
+        float:left;
         opacity: 1;
         margin-left: 60%;
         background-color: darkred;
